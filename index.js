@@ -3,22 +3,36 @@
 
 // 2. Create a variable, sum, and set it to the sum of the two cards
 
-let firstCard = 6
-let secondCard = 9
-
+let firstCard = 10
+let secondCard = 11
 let sum = firstCard + secondCard
+let hasBlackJack = false
 
-console.log(sum)
-
-if (sum < 21) {
+if (sum < 20) {
     console.log("Do you want to draw a new card? 🙂")
 } else if (sum === 21) {
     console.log("Wohoo! You've got Blackjack! 🥳")
-}
-else {
+    hasBlackJack = true
+} else {
     console.log("You're out of the game! 😭")
 }
 
+// CASH OUT!
+console.log(hasBlackJack)
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 let age = 21
 
 if (age < 21) {
@@ -27,4 +41,12 @@ if (age < 21) {
     console.log("Welcome!")
 }
 
-age = 10
+
+if (age < 100) {
+    console.log("Not eligible")
+} else if (age === 100) {
+    console.log("Here is your birthday card from the King")
+} else {
+    console.log("Not elegible, you have already gotten one")
+}
+*/
