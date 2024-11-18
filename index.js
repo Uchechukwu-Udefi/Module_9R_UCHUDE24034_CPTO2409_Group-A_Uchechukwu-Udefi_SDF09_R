@@ -21,8 +21,6 @@ let player = {
 
 playerEl.textContent = player.name + ": $" + player.chips
 
-// CASH OUT!
-
 function getRandomCard() {
     let randomNumber = Math.floor( Math.random() * 13 ) + 1
     if (randomNumber > 10) {
@@ -72,32 +70,3 @@ function newCard() {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/*
-let age = 21
-
-if (age < 21) {
-    console.log("You can not enter the club!")
-} else {
-    console.log("Welcome!")
-}
-
-
-if (age < 100) {
-    console.log("Not eligible")
-} else if (age === 100) {
-    console.log("Here is your birthday card from the King")
-} else {
-    console.log("Not elegible, you have already gotten one")
-}
-*/

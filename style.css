@@ -7,6 +7,17 @@ body {
     font-weight: bold;
 }
 
+div {
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 h1 {
     color: goldenrod;
 }
@@ -27,3 +38,11 @@ button {
     margin-bottom: 2px;
     margin-top: 2px;
 }
+
+button:hover {
+    border: 2px, solid, #ffffff;
+    box-shadow: 0 0 12px #ffffff;
+    background-color: #016f32;
+    color: #ffffff;
+}
+
